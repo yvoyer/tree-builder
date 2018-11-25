@@ -1,0 +1,34 @@
+{
+    "name": "star/tree",
+    "description": "Tree building tool in PHP",
+    "type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yannick Voyer",
+			"email": "star.yvoyer@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"Star\\Component\\Tree\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Star\\Component\\Tree\\": "tests"
+		}
+	},
+	"require": {
+		"php": "^7.1",
+        "ext-pdo_sqlite": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^7.3"
+	},
+	"config": {
+		"bin-dir": "bin",
+		"sort-package": true
+	}
+}
